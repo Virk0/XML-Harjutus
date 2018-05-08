@@ -56,7 +56,7 @@ namespace XmlHarjutus
                         //        break;
                         //    }
                         //}
-                        if (NoteTitle.Value == "" || NoteTitle.Value == " " || NoteTitle.Value == "  " || NoteTitle.Value == "   " || NoteTitle.Value == "   " )
+                        if (NoteTitle.Value == "" || NoteTitle.Value == " " || NoteTitle.Value == "  " || NoteTitle.Value == "   " || NoteTitle.Value == "   " || NoteTitle.Value == "    " || NoteTitle.Value == "     " || NoteTitle.Value == "      " || NoteTitle.Value == "       " || NoteTitle.Value == "         " || NoteTitle.Value == "          " || NoteTitle.Value == "           " || NoteTitle.Value == "            ")
                         {
                             Console.WriteLine("Note can't be empty");
                         }
@@ -103,7 +103,7 @@ namespace XmlHarjutus
                         //    Console.WriteLine("Enter Your desired title for note!");
                         //    NoteTitle.Value = Console.ReadLine();
                         //}
-                        if (NoteTitle.Value != "" || NoteTitle.Value != " ")
+                        if (NoteTitle.Value != "" && NoteTitle.Value != " " && NoteTitle.Value != "  " && NoteTitle.Value != "   " && NoteTitle.Value != "   " && NoteTitle.Value != "    " && NoteTitle.Value != "     " && NoteTitle.Value != "      " && NoteTitle.Value != "       " && NoteTitle.Value != "         " && NoteTitle.Value != "          " && NoteTitle.Value != "           " && NoteTitle.Value != "            ")
                         {
                             break;
                         }
