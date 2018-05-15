@@ -32,30 +32,7 @@ namespace XmlHarjutus
                     {
                         Console.WriteLine("Enter Your desired title for note!");
                         NoteTitle.Value = Console.ReadLine();
-                        //if (!string.IsNullOrEmpty(NoteTitle.Value))
-                        //{
-                        //    SomeFunction(NoteTitle.Value);
-                        //}
-                        //if (!string.IsNullOrEmpty(NoteTitle.Value))
-                        //{
-                        //    while (true)
-                        //    {
-                        //        Console.WriteLine("Title can't be empty");
-                        //        Console.WriteLine("Enter Your desired title for note!");
-                        //        NoteTitle.Value = Console.ReadLine();
-                        //        if (!string.IsNullOrEmpty(NoteTitle.Value))
-                        //        {
-                        //            Console.WriteLine("Title can't be empty");
-                        //            Console.WriteLine("Enter Your desired title for note!");
-                        //            NoteTitle.Value = Console.ReadLine();
-                        //            if (!string.IsNullOrEmpty(NoteTitle.Value))
-                        //            {
 
-                        //            }
-                        //        }
-                        //        break;
-                        //    }
-                        //}
                         if (NoteTitle.Value == "" || NoteTitle.Value == " " || NoteTitle.Value == "  " || NoteTitle.Value == "   " || NoteTitle.Value == "   " || NoteTitle.Value == "    " || NoteTitle.Value == "     " || NoteTitle.Value == "      " || NoteTitle.Value == "       " || NoteTitle.Value == "         " || NoteTitle.Value == "          " || NoteTitle.Value == "           " || NoteTitle.Value == "            ")
                         {
                             Console.WriteLine("Note can't be empty");
@@ -97,12 +74,6 @@ namespace XmlHarjutus
                         {
 
                         }
-                        //while (!string.IsNullOrEmpty(NoteTitle.Value))
-                        //{
-                        //    Console.WriteLine("Note can't be empty");
-                        //    Console.WriteLine("Enter Your desired title for note!");
-                        //    NoteTitle.Value = Console.ReadLine();
-                        //}
                         if (NoteTitle.Value != "" && NoteTitle.Value != " " && NoteTitle.Value != "  " && NoteTitle.Value != "   " && NoteTitle.Value != "   " && NoteTitle.Value != "    " && NoteTitle.Value != "     " && NoteTitle.Value != "      " && NoteTitle.Value != "       " && NoteTitle.Value != "         " && NoteTitle.Value != "          " && NoteTitle.Value != "           " && NoteTitle.Value != "            ")
                         {
                             break;
@@ -112,10 +83,6 @@ namespace XmlHarjutus
 
                     Console.WriteLine("Write your desired note.");
                     NoteContent.Value = Console.ReadLine();
-                    //if (!string.IsNullOrEmpty(NoteContent.Value))
-                    //{
-                    //    Console.WriteLine("Note can't be empty");
-                    //}
                     if (NoteContent.Value.Length >= 140)
                     {
                         while (true)
